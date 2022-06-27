@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #e28b00;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.ControllerMenuFormation">
+   <AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: f0fff0;">
+      <Label fx:id="heading" alignment="CENTER" prefHeight="90.0" prefWidth="800.0" style="-fx-background-color: #e28b00;" text="Шеф-повар" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="55.0" />
+         </font>
+      </Label>
+      <Label fx:id="title" alignment="CENTER" layoutX="243.0" layoutY="102.0" prefHeight="67.0" prefWidth="361.0" style="-fx-background-color: #e28b00;" text="Формирование меню" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitButton" layoutX="14.0" layoutY="539.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #e28b00;" text="Выйти" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Button>
+      <Label fx:id="menuTitle" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="306.0" layoutY="180.0" prefHeight="409.0" prefWidth="189.0" style="-fx-background-color: #e28b00;" text="меню" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="menuLabel" alignment="CENTER" layoutX="314.0" layoutY="236.0" prefHeight="343.0" prefWidth="174.0" style="-fx-background-color: f0fff0;" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="recipesButton" layoutX="76.0" layoutY="539.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #e28b00;" text="Рецепты" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font>
+      </Button>
+      <Label fx:id="dishesTitle" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="552.0" layoutY="180.0" prefHeight="245.0" prefWidth="241.0" style="-fx-background-color: #e28b00;" text="Блюда" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="dishesLabel1" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="586.0" layoutY="236.0" prefHeight="22.0" prefWidth="174.0" style="-fx-background-color: f0fff0;" text="Борщ" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="subtractDishesButton1" layoutX="558.0" layoutY="236.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: f0fff0;" text="-">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="addDishesButton1" layoutX="764.0" layoutY="236.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: f0fff0;" text="+">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="subtractDishesButton2" layoutX="558.0" layoutY="268.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: f0fff0;" text="-">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="subtractDishesButton3" layoutX="558.0" layoutY="300.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: f0fff0;" text="-">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="subtractDishesButton4" layoutX="558.0" layoutY="332.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: f0fff0;" text="-">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="subtractDishesButton5" layoutX="558.0" layoutY="363.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: f0fff0;" text="-">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="addDishesButton2" layoutX="764.0" layoutY="268.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: f0fff0;" text="+">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="addDishesButton3" layoutX="764.0" layoutY="300.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: f0fff0;" text="+">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="addDishesButton4" layoutX="764.0" layoutY="332.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: f0fff0;" text="+">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="addDishesButton5" layoutX="764.0" layoutY="363.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: f0fff0;" text="+">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Button>
+      <Label fx:id="personTitle" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="592.0" layoutY="484.0" prefHeight="90.0" prefWidth="174.0" style="-fx-background-color: #e28b00;" text="Количество человек" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="countPersonLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="654.0" layoutY="509.0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: f0fff0;" text="1" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="addPersonButton" layoutX="712.0" layoutY="518.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: f0fff0;" text="+">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="subtractPersonButton" layoutX="615.0" layoutY="518.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: f0fff0;" text="-">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="expensesTitle" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="14.0" layoutY="102.0" prefHeight="60.0" prefWidth="130.0" style="-fx-background-color: #e28b00;" text="Расходы" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="expensesLabel" alignment="CENTER" layoutX="23.0" layoutY="120.0" prefHeight="32.0" prefWidth="113.0" style="-fx-background-color: f0fff0;" text="0" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="dishesLabel2" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="586.0" layoutY="268.0" prefHeight="22.0" prefWidth="174.0" style="-fx-background-color: f0fff0;" text="Плов" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="dishesLabel3" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="586.0" layoutY="300.0" prefHeight="22.0" prefWidth="174.0" style="-fx-background-color: f0fff0;" text="Пельмени" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="dishesLabel4" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="586.0" layoutY="332.0" prefHeight="22.0" prefWidth="174.0" style="-fx-background-color: f0fff0;" text="Венегрет" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="dishesLabel5" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="586.0" layoutY="363.0" prefHeight="22.0" prefWidth="174.0" style="-fx-background-color: f0fff0;" text="Шаурма" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="administratorButton" layoutX="654.0" layoutY="102.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="130.0" style="-fx-background-color: #e28b00;" text="Кабинет администратора" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="9.0" />
+         </font>
+      </Button>
+      <Label fx:id="productsTitle" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="14.0" layoutY="170.0" prefHeight="343.0" prefWidth="189.0" style="-fx-background-color: #e28b00;" text="продукты" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="productsLabel" alignment="TOP_LEFT" layoutX="22.0" layoutY="226.0" prefHeight="278.0" prefWidth="174.0" style="-fx-background-color: f0fff0;">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+   </AnchorPane>
+</AnchorPane>
