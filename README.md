@@ -7,3 +7,4 @@
 
 ![image](https://user-images.githubusercontent.com/77586362/176284113-dc83c468-6859-413b-a242-86e2c463c916.png)
 
+рисунок 1
